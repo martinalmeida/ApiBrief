@@ -1,0 +1,21 @@
+{
+    "name": "apibrief/core",
+    "description": "Un paquete ligero para crear APIs inspirado en FastAPI.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiBrief\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Almeida",
+            "email": "martinalmeida56@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
